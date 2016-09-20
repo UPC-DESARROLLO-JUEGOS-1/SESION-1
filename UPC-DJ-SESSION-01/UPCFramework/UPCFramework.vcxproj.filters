@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\com">
+      <UniqueIdentifier>{31d7e370-b791-48d4-9952-42c6ebb53037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc">
+      <UniqueIdentifier>{775ebb0e-14db-4beb-9549-baf66aafe57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\display">
+      <UniqueIdentifier>{3dd13bf9-060b-41cc-bd1c-0bca839f2838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core">
+      <UniqueIdentifier>{a159220a-3a25-4b94-9808-f33c075a0c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com">
+      <UniqueIdentifier>{80a305b6-cbec-4167-9ecd-43ffb90a5b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc">
+      <UniqueIdentifier>{22b40f61-7428-472e-91cb-2c7ede240dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\display">
+      <UniqueIdentifier>{a2028fe2-e607-4776-a89e-e51d96c9a258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core">
+      <UniqueIdentifier>{e14540dc-3b9a-475a-adf6-f4eb7eee158d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\utils">
+      <UniqueIdentifier>{e3f05a33-0055-47a6-b261-5c0132f03e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\utils">
+      <UniqueIdentifier>{6206e5b1-9394-45e4-98fe-1ac09466c4ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NEnumWindowFlags.h">
+      <Filter>Source Files\com\upc\display</Filter>
+    </ClInclude>
+    <ClInclude Include="NWindow.h">
+      <Filter>Header Files\com\upc\display</Filter>
+    </ClInclude>
+    <ClInclude Include="FatalError.h">
+      <Filter>Header Files\com\upc\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NWindow.cpp">
+      <Filter>Source Files\com\upc\display</Filter>
+    </ClCompile>
+    <ClCompile Include="FatalError.cpp">
+      <Filter>Source Files\com\upc\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
